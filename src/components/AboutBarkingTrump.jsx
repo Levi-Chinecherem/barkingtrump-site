@@ -8,7 +8,7 @@ const AboutBarkingTrump = () => {
       {/* First Section: Image on top and text below */}
       <div className="flex flex-col items-center mb-8">
         <img 
-          src="src/assets/pic1.png" // Updated to use pic1.png
+          src="/assets/pic1.png" // Updated to use pic1.png
           alt="Comic Strip" 
           className="w-full max-w-sm border-4 border-green-500 rounded-lg shadow-lg" // Reduced size
         />
@@ -23,7 +23,7 @@ const AboutBarkingTrump = () => {
       {/* Second Section: Text on top and image below */}
       <div className="flex flex-col items-center mb-8">
         <img 
-          src="src/assets/pic2.png" // Updated to use pic2.png
+          src="/assets/pic2.png" // Updated to use pic2.png
           alt="Comic Element" 
           className="w-1/2 max-w-sm"
         />

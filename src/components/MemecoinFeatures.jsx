@@ -8,7 +8,7 @@ const MemecoinFeatures = () => {
       {/* Visual Infographics replaced with Video */}
       <div className="flex justify-center mb-8">
         <video 
-          src="src/assets/barkingtrump1.mp4" // Replace with your video path
+          src="/assets/barkingtrump1.mp4" // Replace with your video path
           alt="Infographic Video" 
           className="w-full max-w-lg border-4 border-green-500 rounded-lg shadow-lg" 
           controls // Optional: To allow video control (play, pause, etc.)

@@ -8,7 +8,7 @@ const Roadmap = () => {
       {/* Comic-style Timeline Video */}
       <div className="flex flex-col items-center mb-8">
         <video 
-          src="src/assets/barkingtrump2.mp4" // Replace with your video path
+          src="/assets/barkingtrump2.mp4" // Replace with your video path
           alt="Roadmap Timeline"
           className="w-full max-w-lg border-4 border-green-500 rounded-lg shadow-lg"
           controls // Add controls to allow users to play/pause the video
